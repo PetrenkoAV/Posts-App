@@ -1,0 +1,31 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0px;
+    position: relative;
+    background-color: bisque;
+}
+.post{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+    
+}
+hr{
+    background-color: black;
+    border: none;
+    width: 99.5%;
+    height: 1px;
+}
+.post p{
+    padding: 0px 10px 0px 10px;
+}
+.post__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
